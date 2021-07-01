@@ -7,11 +7,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Test Portfolio Page">
   <title> 😭 Aidan Villegas</title>
+  <style>
+    body {
+      background-color: rgb(243, 214, 214);
+    }
+
+    hr {
+      background-color: rgb(191, 212, 240);
+      border-style: none;
+      height: 10px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Aidan Villegas</h1>
-  <p><em><strong>Speech Pathologist</strong></em></p>
+  <!-- #region Profile -->
+  <table>
+    <tr>
+      <td><img src="son-of-man.jpg" alt="Profile Icon " width="350" height="511"></td>
+
+      <td>
+        <h1>Aidan Villegas</h1>
+        <p><strong>Role:</strong> Speech Pathologist</p>
+        <p>Social Media: <a href="https://www.google.com/"><button>google</button></a></p>
+      </td>
+    </tr>
+  </table>
+  <!-- #endregion -->
+
+  <!-- #region Intro -->
+  <h1>Intro</h1>
   <p>Anything definition is - any thing whatever : any such thing. How to use anything in a sentence.Lorem ipsum dolor
     sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
     minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -20,8 +45,18 @@
     <br>
     <p><strong>Contact:</strong> aidanv@gmail.com</p>
   </p>
-  <hr size="2" noshade>
+  <hr>
+  <!-- #endregion -->
   <h3>Projects</h3>
 </body>
+<form action="mailto:aidanvillegas@gmail.com" method="post" enctype="text/plain">
+  <label>Your Name:</label>
+  <input type="text" name="Your Name " value=""> <br>
+  <label>Your Email:</label>
+  <input type="email" name="Your Email " value=""> <br>
+  <label>Your Message:</label> <br>
+  <textarea name="Your Message " id="" cols="30" rows="10"></textarea> <br>
+  <input type="submit" name="">
+</form>
 
 </html>
