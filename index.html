@@ -7,56 +7,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Test Portfolio Page">
   <title> 😭 Aidan Villegas</title>
-  <style>
-    body {
-      background-color: rgb(243, 214, 214);
-    }
-
-    hr {
-      background-color: rgb(191, 212, 240);
-      border-style: none;
-      height: 10px;
-    }
-  </style>
+  <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body>
   <!-- #region Profile -->
-  <table>
-    <tr>
-      <td><img src="son-of-man.jpg" alt="Profile Icon " width="350" height="511"></td>
+  <div class="div1">
+    <table>
+      <tr>
+        <td><img class="profile-image" src="son-of-man.jpg" alt="Profile Icon " width="350" height="511"></td>
 
-      <td>
-        <h1>Aidan Villegas</h1>
-        <p><strong>Role:</strong> Pathologist</p>
-        <p>Social Media: <a href="https://www.google.com/"><button>google</button></a></p>
-      </td>
-    </tr>
-  </table>
-  <!-- #endregion -->
+        <td>
+          <h1>Aidan Villegas</h1>
+          <p><strong>Role:</strong> Pathologist</p>
+          <a href="https://www.youtube.com/channel/UCAECMIc5Fj0S0MVeR9FlnIg"><img class="social-media"
+              src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Youtube_colored_svg-128.png"
+              alt="YouTube" </a> <a href="https://twitter.com/AidanVillegas"><img class="social-media"
+              src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter" </a> <a
+              href="https://discord.gg/EpRE97RK"><img class="social-media"
+              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-128.png" </a> <a
+              href="https://github.com/avillegas1"><img class="social-media"
+              src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-128.png" </a> </td> </tr>
+              </table> </div> <!-- #endregion -->
 
-  <!-- #region Intro -->
-  <h1>Intro</h1>
-  <p>Anything definition is - any thing whatever : any such thing. How to use anything in a sentence.Lorem ipsum dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    <br>
-    <p><strong>Contact:</strong> aidanv@gmail.com</p>
-  </p>
-  <hr>
-  <!-- #endregion -->
-  <h3>Projects</h3>
+            <!-- #region Intro -->
+            <div class="div2">d
+              <h1>Intro</h1>
+              <p>Anything definition is - any thing whatever : any such thing. How to use anything in a sentence.Lorem
+                ipsum dolor
+                sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim
+                ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <br>
+              </p>
+              <hr>
+              <h3>Projects</h3>
+            </div>
+
+            <!-- #endregion -->
+
+            <div class="div2">
+              <p><strong>Contact:</strong> aidanv@gmail.com</p>
+              <form action="mailto:aidanvillegas@gmail.com" method="post" enctype="text/plain">
+                <label>Your Name:</label>
+                <input type="text" name="Your Name " value=""> <br>
+                <label>Your Email:</label>
+                <input type="email" name="Your Email " value=""> <br>
+                <label>Your Message:</label> <br>
+                <textarea name="Your Message " id="" cols="30" rows="10"></textarea> <br>
+                <input type="submit" name="">
+              </form>
+            </div>
+
 </body>
-<form action="mailto:aidanvillegas@gmail.com" method="post" enctype="text/plain">
-  <label>Your Name:</label>
-  <input type="text" name="Your Name " value=""> <br>
-  <label>Your Email:</label>
-  <input type="email" name="Your Email " value=""> <br>
-  <label>Your Message:</label> <br>
-  <textarea name="Your Message " id="" cols="30" rows="10"></textarea> <br>
-  <input type="submit" name="">
-</form>
+
 
 </html>
